@@ -20,9 +20,9 @@ public class Application {
     }
 
     /**
-     * http://localhost:8080/api/test
-     * http://y2fafa.natappfree.cc/api/test
-     * http://fersbbvwofks.nat100.top/api/test
+     * <a href="http://localhost:8080/api/test">http://localhost:8080/api/test</a>
+     * <a href="http://y2fafa.natappfree.cc/api/test">http://y2fafa.natappfree.cc/api/test</a>
+     * <a href="http://fersbbvwofks.nat100.top/api/test">http://fersbbvwofks.nat100.top/api/test</a>
      */
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     public ResponseBodyEmitter test(HttpServletResponse response) {
@@ -48,9 +48,9 @@ public class Application {
     }
 
     /**
-     * http://localhost:8080/api/query
-     * http://192.168.1.111:8080/api/query
-     * http://117.72.37.243:8080/api/query
+     * <a href="http://localhost:8080/api/query">http://localhost:8080/api/query</a>
+     * <a href="http://192.168.1.111:8080/api/query">http://192.168.1.111:8080/api/query</a>
+     * <a href="http://117.72.37.243:8080/api/query">http://117.72.37.243:8080/api/query</a>
      */
     @RequestMapping(value = "/query", method = RequestMethod.GET)
     public String query() {
